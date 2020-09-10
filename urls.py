@@ -20,5 +20,5 @@ from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('tweets/', include('tweets.urls')),
+    path('', include('tweets.urls')),
 ] + static(settings.IMAGE_URL, document_root=settings.IMAGE_ROOT) + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
