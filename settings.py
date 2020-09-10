@@ -129,4 +129,4 @@ IMAGE_ROOT = os.path.join(BASE_DIR, 'images')
 
 IMAGE_URL = '/images/'
 
-LOGIN_URL = '/tweets/login/'
+LOGIN_URL = '/user/login/'
